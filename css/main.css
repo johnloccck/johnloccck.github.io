@@ -1,0 +1,92 @@
+*{margin: 0;
+padding:0;}
+@font-face{font-family:western;
+src:url(../abileneregulardb.ttf);
+}
+body{
+	font-family: western;
+	background: moccasin;
+
+}
+header{background: white;}
+
+#wrapp{
+	width: 90%;
+	margin:0 auto;
+}
+header img{
+	float: left;
+	width: 160px;
+	height: 160px;
+  }
+
+header h1 {
+	float: right;
+	font-size: 4em;
+	margin-right:200px;
+	margin-top: 20px;
+
+}
+select{display: none;}
+.clr{clear: both;}
+
+nav ul{list-style: none;}
+
+nav ul li{display: inline-block;
+width: 100px;
+height:30px;
+line-height: 30px;
+margin-right: 30px;
+font-size: 1.8em;}
+
+nav ul li:first-child{margin-left: 150px;}
+
+nav ul li:hover{color: orange;
+	            cursor:pointer;
+
+}
+
+article{
+	padding: 30px;
+}
+article img{float: left;
+margin-right: 50px; }
+
+article h2{text-align: center;
+font-size: 2em;
+color: SaddleBrown;}
+
+article p{padding: 20px;
+font-family: Tahoma;
+font-size: 1.2em;
+color: brown}
+
+.price{font-size: 3em;
+}
+
+.price span{
+	font-size: 1.8em;
+	color:green;
+
+}
+
+.hr{width: 70%;
+border-bottom: 1px solid red;
+box-shadow: 5px 5px 5px gray;
+margin: 50px auto}
+
+footer{
+	height: 120px;
+	background: DarkSlateGrey;
+	padding-top: 30px;
+}
+footer h1{
+	text-align: center;
+	color: gold;
+	font-size: 2.2em;
+}
+
+
+
+
+
